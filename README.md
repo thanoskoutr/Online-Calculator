@@ -1,4 +1,4 @@
-# Web Calculator App
+# Online Calculator App
  This is my small project to get to know Javascript and improve my CSS skills by building this basic calculator.
  It needs some improvements, like:
  - To have a display limit on how big numbers can the user select.
