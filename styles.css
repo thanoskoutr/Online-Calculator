@@ -8,10 +8,11 @@ body {
   padding: 0;
   margin: 0;
   /* background: linear-gradient(to right, #00aaff, #00ff6c) */
-  background-image: url("images/ecosystem.jpg");
+  background-image: url("images/mountain.jpg");
   background-position: center;
-  /* background-size: cover; */
-   background-color: #6b6b47;
+  background-size: cover;
+  background-color: #6b6b47;
+  background-repeat: no-repeat;
 }
 
 .calculator-grid {
@@ -20,7 +21,7 @@ body {
   align-content: center;
   min-height: 100vh;
   grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  grid-template-rows: minmax(100px, auto) repeat(5, 80px);
 }
 
 .calculator-grid > button {
@@ -59,4 +60,25 @@ body {
 .output .current-operand {
   color: white;
   font-size: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+    color: rgb(255, 128, 128);
+}
+
+a:hover {
+ color: rgb(102, 153, 255, 0.7);
+}
+
+footer {
+  /* position: fixed; */
+  /* text-align: center; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  line-height: 30%;
+  padding: 1px 10px;
+  background-color: rgba(0, 0, 0, 0.85);
 }
