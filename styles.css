@@ -15,11 +15,23 @@ body {
   background-repeat: no-repeat;
 }
 
+.headerbox {
+  background-color: rgba(0, 0, 0, 0.85) ;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  top: 0;
+  /* margin: 1vh;
+  margin-left: 20vh;
+  margin-right: 20vh; */
+}
+
 .calculator-grid {
   display: grid;
   justify-content: center;
   align-content: center;
-  min-height: 100vh;
+  min-height: 90vh;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: minmax(100px, auto) repeat(5, 80px);
 }
@@ -41,6 +53,7 @@ body {
 }
 
 .output {
+  margin-top: 5px;
   grid-column: 1 / -1;
   background-color: rgba(0, 0, 0, 0.75);
   display: flex;
@@ -74,6 +87,7 @@ a:hover {
 footer {
   /* position: fixed; */
   /* text-align: center; */
+  margin-top: 5px; 
   left: 0;
   bottom: 0;
   width: 100%;
