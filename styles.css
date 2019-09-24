@@ -1,6 +1,6 @@
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family: Gotham Rounded, Gotham Rounded Light, Ubuntu;
+  font-family: Gotham Rounded, Ubuntu, Arial;
   font-weight: normal;
 }
 
