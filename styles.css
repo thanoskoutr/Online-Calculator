@@ -4,6 +4,11 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: Gotham Rounded;
+  src: url(GothamRounded-Book.otf) format("opentype");
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -87,7 +92,7 @@ a:hover {
 footer {
   /* position: fixed; */
   /* text-align: center; */
-  margin-top: 5px; 
+  margin-top: 5px;
   left: 0;
   bottom: 0;
   width: 100%;
